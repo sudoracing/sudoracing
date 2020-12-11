@@ -10,45 +10,59 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container text-center">
+        <div class="container">
             <header>
-                <div class="text-center">
-                    <img src="img/color_logo_transparent.png" class="img-fluid" alt="Sudo Racing" />
+                <div class="mt-3 mb-4 mb-md-5">
+                    <img src="img/color_logo_transparent.png" class="w-50" alt="Sudo Racing" />
                 </div>
             </header>
-            <h1>Rules</h1>
-            <p>
-                <b>Don't be a dick</b><br />
-                <b>Race clean</b> and give room<br />
-                <b>Be polite</b> and <b>respect others</b><br />
-                <b>Enjoy yourself!</b>
-            </p>
-            <h2>
-                Assetto Corsa Competizione
-            </h2>
-            <dl>
-                <dt>
-                    Server
-                </dt>
-                <dd>
-                    sudo racing
-                </dd>
-                <dt>
-                    Password
-                </dt>
-                <dd>
-                    <s>chmod777</s>
-                </dd>
-            </dl>
-            <h3>
-                Discord
-            </h3>
-            <p><b><a href="https://discord.gg/C75JQZd">https://discord.gg/C75JQZd</a></b></p>
-            <h1>
+            
+            <div class="card-deck mb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Rules</h4>
+                        <ol class="mb-0">
+                            <li><strong>Don't be a dick</strong></li>
+                            <li><strong>Race clean</strong> and give room</li>
+                            <li><strong>Be polite</strong> and <strong>respect others</strong></li>
+                            <li class="mb-0">Enjoy yourself!</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Assetto Corsa Competizione</h4>
+                        <dl class="mb-0">
+                            <dt>
+                                Server
+                            </dt>
+                            <dd>
+                                sudo racing
+                            </dd>
+                            <dt>
+                                Password
+                            </dt>
+                            <dd class="mb-0">
+                                <s>chmod777</s>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                 <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Discord</h4>
+                        <p><a href="https://discord.gg/C75JQZd">https://discord.gg/C75JQZd</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <h2>
                 Race Calendar <small class="text-muted">(<b>GT3</b> Season 2)</small>
-            </h1>
-            <p>
-                Race day is <b>THURSDAY</b> from 18:45 GMT. We race for fun, for now.<br/>
+                </h2>
+                <p>
+                Race day is <strong>THURSDAY</strong> from 18:45 GMT. We race for fun, for now.<br/>
                 18:45 - Practice<br/>
                 20:45 - Quali<br/>
                 21:00 - Race (40 Minutes)
@@ -128,8 +142,11 @@
                     </tr>
                 </tbody>
             </table>
-            <h1>Results</h1>
-            <h3>Season 2 Driver Standings</h3>
+            </div>
+        </div>
+           <div class="container">
+            <h2>Results</h2>
+            <p class="lead">Season 2 Driver Standings</p>
             <table class="table table-striped table-sm mb-5">
                 <thead class="thead-dark">
                     <tr>
@@ -186,12 +203,12 @@
                     </tr>
                 </tbody>
             </table>
-            <p>
-                <a href="https://github.com/nickrowland/sudoracing">Edit page on Github</a>
-            </p>
-            <p>
-                &copy; 2020 Sudo Racing
-            </p>
+            
+        </div>
+        <div class="container">
+            <div class="alert alert-secondary">
+                <a href="https://github.com/nickrowland/sudoracing" class="text-secondary"><strong>Edit page on Github</strong></a> &copy; 2020 Sudo Racing
+            </div>
         </div>
     </body>
 </html>
